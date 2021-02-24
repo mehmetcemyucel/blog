@@ -25,10 +25,10 @@ public class Block {
 	public Block(long index, String previousHash, String timestamp, List<String> transactionList) {
 		this.index = index;
 		this.previousHash = previousHash;
-		this.hash = generateValidHash();
 		this.timestamp = timestamp;
 		this.transactionList = Collections.unmodifiableList(transactionList);
-	}
+                this.hash = generateValidHash();
+        }
 
 	private String generateValidHash() {
 		long nonce = 0;
