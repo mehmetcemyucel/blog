@@ -1,0 +1,20 @@
+{"level":"info","ts":1651131250.3771799,"caller":"migrate/migrate.go:21","msg":"Migration has started with; ","connUrl":"postgres://postgres:mysecretpassword@localhost:5432/postgres?sslmode=disable"}
+{"level":"info","ts":1651131250.4744592,"caller":"migrate/migrate.go:30","msg":"Migration finished successfully"}
+{"level":"info","ts":1651131250.4870872,"caller":"router/echo.go:36","msg":"POST api/v1/check route defined"}
+{"level":"info","ts":1651131250.4876175,"caller":"router/echo.go:39","msg":"GET /metrics route defined"}
+{"level":"info","ts":1651131250.4876175,"caller":"router/echo.go:42","msg":"GET /swagger/* route defined"}
+{"level":"info","ts":1651131250.4876175,"caller":"mcy/main.go:36","msg":"App Server Starting..."}
+{"level":"info","ts":1651176312.009531,"caller":"migrate/migrate.go:21","msg":"Migration has started with; ","connUrl":"postgres://postgres:mysecretpassword@localhost:5432/postgres?sslmode=disable"}
+{"level":"warn","ts":1651176312.0564985,"caller":"migrate/migrate.go:28","msg":"Migration has an error ","error":"no change"}
+{"level":"info","ts":1651176312.0567071,"caller":"migrate/migrate.go:30","msg":"Migration finished successfully"}
+{"level":"info","ts":1651176312.0703173,"caller":"router/echo.go:36","msg":"POST api/v1/check route defined"}
+{"level":"info","ts":1651176312.0703373,"caller":"router/echo.go:39","msg":"GET /metrics route defined"}
+{"level":"info","ts":1651176312.0703373,"caller":"router/echo.go:42","msg":"GET /swagger/* route defined"}
+{"level":"info","ts":1651176312.0703373,"caller":"mcy/main.go:36","msg":"App Server Starting..."}
+{"level":"info","ts":1651178337.2212324,"caller":"migrate/migrate.go:21","msg":"Migration has started with; ","connUrl":"postgres://postgres:mysecretpassword@localhost:5432/postgres?sslmode=disable"}
+{"level":"warn","ts":1651178337.255805,"caller":"migrate/migrate.go:28","msg":"Migration has an error ","error":"no change"}
+{"level":"info","ts":1651178337.2563365,"caller":"migrate/migrate.go:30","msg":"Migration finished successfully"}
+{"level":"info","ts":1651178337.271143,"caller":"router/echo.go:36","msg":"POST api/v1/check route defined"}
+{"level":"info","ts":1651178337.2716851,"caller":"router/echo.go:39","msg":"GET /metrics route defined"}
+{"level":"info","ts":1651178337.2716851,"caller":"router/echo.go:42","msg":"GET /swagger/* route defined"}
+{"level":"info","ts":1651178337.2716851,"caller":"mcy/main.go:36","msg":"App Server Starting..."}

@@ -1,0 +1,65 @@
+basePath: /
+definitions:
+  request.ExampleRequest:
+    properties:
+      hash:
+        maxLength: 16
+        minLength: 4
+        type: string
+      name:
+        maxLength: 16
+        minLength: 4
+        type: string
+    type: object
+  response.ExampleResponse:
+    properties:
+      createdAt:
+        type: string
+      deletedAt:
+        type: string
+      id:
+        type: integer
+      name:
+        type: string
+      updatedAt:
+        type: string
+    type: object
+host: localhost:8080
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: This is an example microservice with Golang
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Golang Example API
+  version: "1.0"
+paths:
+  /api/v1/check:
+    post:
+      consumes:
+      - application/json
+      description: Check Service details
+      parameters:
+      - description: ExampleRequest
+        in: body
+        name: account
+        required: true
+        schema:
+          $ref: '#/definitions/request.ExampleRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.ExampleResponse'
+      summary: Check endpoint of go example app
+      tags:
+      - ExampleApi
+schemes:
+- http
+swagger: "2.0"

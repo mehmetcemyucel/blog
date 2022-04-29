@@ -1,0 +1,1 @@
+delete from public.examples where id in (1,2)

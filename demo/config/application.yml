@@ -1,0 +1,19 @@
+postgre:
+  host: localhost
+  name: postgres
+  port: "5432"
+  password: mysecretpassword
+  username: postgres
+  table-prefix: public.
+  ssl: false
+app-server:
+  port: ":8080"
+  cors:
+    - https://mehmetcemyucel.com
+    - https://mehmetcemyucel.net
+log:
+  kafka:
+    kafka-cluster: 127.0.0.1:9093
+    topic: logtopic
+  file:
+    log-path: ./logs/go.log
